@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: skyblue;
+}
+
+.container {
+  text-align: center;
+  /* background: skyblue; */
+  /* background: #000; */
+}
+
+.bar h1 {
+  color: skyblue;
+  background: white;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.right-form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.right-form p {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.right-form input {
+  height: 40px;
+  margin: 10px 20px 0px 20px;
+}
+
+.padding-input {
+  padding-left: 13px;
+}
+
+.right-form button {
+  border: none;
+  color: white;
+  /* margin: 0px 20px 0px 20px; */
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.button-submit {
+  background: purple;
+  border-radius: 3px;
+  height: 30px;
+}
+
+.button-clear {
+  background: red;
+  border-radius: 3px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card-btn {
+  border: none;
+  background: none;
+}
+
+.like {
+  align-items: left;
+  /* justify-content: flex-start; */
+}
+
+.delete {
+  align-items: right;
+  /* justify-content: flex-end; */
+}
+
+.card img {
+  height: 125px;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-like {
+  justify-content: flex-start;
+}
+
+.btn-delete {
+  justify-content: flex-start;
+}
